@@ -1,0 +1,2 @@
+FALTA registrar el receiver para que en background tb gestionemos nosotros la generacion de la notificacion.
+Para comprobar esto, es sencillo con la app en background o muerta del todo, se le manda la push, si el estilo es like lollipop y no se estan usando las imagenes de woah, es q no está pasando por nuestro receiver
