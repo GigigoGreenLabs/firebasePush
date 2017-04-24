@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "117687721829",
+    "firebase_url": "https://woahpush.firebaseio.com",
+    "project_id": "woahpush",
+    "storage_bucket": "woahpush.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:117687721829:android:bb74199a2820d267",
+        "android_client_info": {
+          "package_name": "firebasetest.gigigo.com.testfirebase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "117687721829-i5699am8vtee3lcf4fcs698bkl485q27.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "firebasetest.gigigo.com.testfirebase",
+            "certificate_hash": "07be9985b177d7b9dd494906020b20a85ae2883a"
+          }
+        },
+        {
+          "client_id": "117687721829-14ufromemqep49uphb32b4ertd7vj0ma.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADDB9oVYah_sJ9Y2zM4s6cz9UfFGDm4OI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "117687721829-14ufromemqep49uphb32b4ertd7vj0ma.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

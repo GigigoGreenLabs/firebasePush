@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="firebasetest.gigigo.com.testfirebase">
+
+  <application
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:roundIcon="@mipmap/ic_launcher_round"
+      android:supportsRtl="true"
+      android:theme="@style/AppTheme">
+    <activity
+        android:name=".MainActivity"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+
+        <category android:name="android.intent.category.LAUNCHER"/>
+
+        <!--firebase step6-->
+        <action android:name="OPEN_ACTIVITY_1"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+
+      </intent-filter>
+    </activity>
+
+    <!--firebase step5-->
+    <service
+        android:name=".MyOwnFirebaseMessagingService">
+      <intent-filter>
+        <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+      </intent-filter>
+    </service>
+    <!--firebase step5.5-->
+    <service
+        android:name=".MyOwnFirebaseInstanceIDService">
+      <intent-filter>
+        <action android:name="com.google.firebase.INSTANCE_ID_EVENT"/>
+      </intent-filter>
+    </service>
+    <!--firebase step6.5 (receiver woah)-->
+    <receiver android:name=".MyOwnBroadcastReceiver" android:enabled="true"/>
+
+  </application>
+
+</manifest>
